@@ -24,14 +24,22 @@ For this tutorial I will be walking through how to install LAMP on Debian-based 
 
 Apache is our web server software. This is what is going to handle our handles requests such as HTTP and takes us to our webpage.
 
-You can check if you have apache already insatlled on your system by typing 
+#### Checking if Apache is installed
+
+You can check if you have apache already installed on your system by typing 
 ```
 which apache2
 ```
-which should return a directory if it is installed. If not, you can install apache using the following command:
+which should return a directory if it is installed.
+
+#### Installing Apache
+
+If not, you can install apache using the following command:
 ```
 sudo apt-get install apache2
 ```
+
+#### Making sure that Apache is running 
 
 Now that it's installed, you can check the status of apache to see if it is running.
 ```
@@ -47,4 +55,6 @@ sudo service apache2 start
 ```
 And check the status again to see if apache is running.
 
-Now that it's running, we can see a live demo of our apache web server but typing in ```localhost``` into any browser, which should return the *Apache2 Ubuntu Default Page*.
+#### Checking out our Apache Web Server
+
+Now that it's running, we can see a live demo of our apache web server but typing in ```localhost``` into any browser, which should return the *Apache2 Ubuntu Default Page* if everything has been done correctly. If you don't see this make sure that apache is running by rereading the **Making sure that Apache is running** section.
