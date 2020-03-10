@@ -6,7 +6,7 @@ The LAMP stack is an acronym for a set of open-source software that can be used 
 
 It stands for:
 
-..* *L* inux 
-..* *A* pache
-..* *M* MySql
-..* *P* HP
+* *L* inux 
+* *A* pache
+* *M* MySql
+* *P* HP
