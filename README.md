@@ -21,8 +21,6 @@ However, for this tutorial, I will be teaching you how to get LAMP installed loc
 
 Now when it comes to Linux, it doesn't really matter how you are able to use it as the LAMP stack pretty much works if you have a unix shell, whether it be from Ubuntu, Fedora, MacOS or even WSL (Windows Subsystem for Linux)!
 
-For a long time, I was doing just fine using the Ubuntu Windows Subsystem for Linux, but now I moved on to using *Pop! OS* as my main operating system.
-
 There are many Linux-distros to choose from such as Ubuntu, Fedora, openSUSE, Arch, etc - however, whichever OS you use doesn't really matter and is totally personal preference
 
 But for now, in this tutorial I will be walking through how to install LAMP on Debian-based Linux distros as it is what I am most familiar with.
