@@ -62,4 +62,4 @@ And check the status again to see if apache is running.
 
 #### Checking out our Apache Web Server
 
-Now that it's running, we can see a live demo of our apache web server but typing in ```localhost``` into any browser, which should return the **Apache2 Ubuntu Default Page** if everything has been done correctly. If you don't see this make sure that apache is running by rereading the *Making sure that Apache is running* section.
+Now that it's running, we can see a live demo of our apache web server but typing in ```localhost``` into any browser, which should return the *Apache2 Ubuntu Default Page* if everything has been done correctly. If you don't see this make sure that apache is running by rereading the **Making sure that Apache is running** section.
