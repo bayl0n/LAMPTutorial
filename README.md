@@ -64,6 +64,14 @@ And check the status again to see if apache is running.
 
 Now that it's running, we can see a live demo of our apache web server but typing in ```localhost``` into any browser, which should return the *Apache2 Ubuntu Default Page* if everything has been done correctly. If you don't see this make sure that apache is running by rereading the **Making sure that Apache is running** section.
 
+#### Giving permissions
+
+when you create your web sever using Apache, your user won't be able to edit files, as you will have read-only permissions. To fix this, you need to give your user permission to do so using the following command:
+```
+sudo chown -R USER /var/www/html/
+```
+where ```USER``` is the name of the user you want to give access to.
+
 ### MySQL
 
 MySQL is an open-source relational database management system.
