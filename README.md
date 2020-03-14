@@ -37,6 +37,13 @@ which apache2
 ```
 which should return a directory if it is installed.
 
+#### Updating your packages
+
+If you haven't alreaady, make sure your packages are up to date by running the following command:
+```
+sudo apt update
+```
+
 #### Installing Apache
 
 If not, you can install apache using the following command:
@@ -78,4 +85,12 @@ MySQL is an open-source relational database management system.
 
 #### Checking that MySQL is installed
 
-You can check if you have installed MySQL by simply typing ```mysql``` [TODO]
+You can check if you have installed MySQL by simply typing ```mysql```
+
+#### Installing MySQL
+
+To install MySQL, use the following command
+```
+sudo apt install mysql-server
+```
+which should install MySQL
