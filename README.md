@@ -94,3 +94,12 @@ To install MySQL, use the following command
 sudo apt install mysql-server
 ```
 which should install MySQL
+
+#### Securing your installation 
+
+Now that you have MySQL installed, you have to run a security script that comes pre-installed with MySQL. This will make your installation more secure.
+
+```
+sudo mysql-secure-installation
+```
+
